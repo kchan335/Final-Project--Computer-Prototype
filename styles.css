@@ -1,0 +1,100 @@
+ /* dispaly side-by-side  */
+.lay1{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay2{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay3{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay4{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay5{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay6{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay7{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay8{
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border:1px solid gray;
+  float:left }
+
+.lay9{
+    float:left }
+.lay10{
+    float:left }
+.lay11{
+    float:left }
+.lay12{
+    float:left }
+.lay13{
+    float:left }
+.lay14{
+    float:left }
+.lay15{
+    float:left }
+.lay16{
+    float:left }
+
+/* space between names of staffs and pictures */
+.space{
+  padding: 80px
+}
+
+/* header */
+.header{
+    background-color: lightgray;
+    overflow: hidden;
+    margin: 0px;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Instructions on homepage and gamepage*/
+.instructions {
+  padding: 20px;}
