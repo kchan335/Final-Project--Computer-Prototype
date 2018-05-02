@@ -1,51 +1,83 @@
  /* dispaly side-by-side  */
 .lay1{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+  }
 
 .lay2{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay3{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay4{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay5{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay6{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay7{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay8{
+  font-family: "Comic Sans MS";
+  background-color: white;
   padding: 16px 32px;
   margin: 4px 2px;
-  border:1px solid gray;
-  float:left }
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  float:left
+}
 
 .lay9{
     float:left }
@@ -64,37 +96,295 @@
 .lay16{
     float:left }
 
+
+/* for gamepage */
+.words {
+    margin: auto;
+    width: 90%;
+    padding: 75px;
+}
+
+
+.space2 {
+  padding: 240px;
+  align: center;
+}
 /* space between names of staffs and pictures */
 .space{
-  padding: 80px
+  padding: 30px
 }
 
-/* header */
+/* Style the header with a background and some padding */
 .header{
-    background-color: lightgray;
+    background: linear-gradient(to right, rgba(107,209,209,100), rgba(138,211,246,100));
     overflow: hidden;
-    margin: 0px;
 }
 
-/* Style the header with a grey background and some padding */
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-/* Style the header links */
-.header a {
-  float: left;
-  color: black;
+/* Style the header links for About, Contact, Everyday English Plus */
+.contact {
+  float: right;
+  color: white;
   text-align: center;
-  padding: 12px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 20px;
-  line-height: 25px;
-  border-radius: 4px;
+  font-family: "Comic Sans MS";
 }
+
+.about {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+}
+
+.gamename{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+}
+
+/* Change the color of links on hover for contact, about */
+.contact:hover {
+  background-color: #ffffff;
+  opacity: 0.6;
+  color: royalblue;
+}
+.about:hover {
+  background-color: #ffffff;
+  opacity: 0.6;
+  color: royalblue;
+}
+
+
 
 /* Instructions on homepage and gamepage*/
 .instructions {
-  padding: 20px;}
+  padding: 18px;
+}
+.gamepage {
+    background-image: url("background 1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+/* Button on game page */
+.buttonColor {
+  font-family: "Comic Sans MS";
+  color: white;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #6BD1D1;
+    border: 2px solid transparent;
+    border-radius: 4px;
+  }
+.button1:hover {
+  background-color: #e7e7e7;}
+
+/* Style on homepage */
+h2 {
+  font-family: "Comic Sans MS";
+  color: #6BD1D1;
+}
+.introduction {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
+
+/* Picutres on homepage */
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  flex: 33.33%;
+
+}
+.row {
+    display: flex;
+    margin: 50px;
+
+}
+
+/* Make the image to responsive */
+.classroom {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fireSafety {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.collegeSchool {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+}
+
+/*Copyright */
+.copyright {
+    font-family: "Comic Sans MS";
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/*timer*/
+#forTime {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
+#time {
+  color:red;
+}
+#lastTime {
+  color:rgba(100,211,350,100);
+}
+
+/* line style */
+hr {
+  border-width: 0.1px;
+  color:#FBFBFB;
+}
+
+/*About page */
+.aboutBackground {
+   background-image: url("About background.png");
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: fixed;
+}
+
+.background {
+  border: 1px solid transparent;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+/*Contact page*/
+.contactBackground{
+  background-image: url("Contact background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+
+.background1 {
+  border: 1px solid transparent;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/*Contact from */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+   width: 100%; /* Full width */
+   padding: 12px; /* Some padding */
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+   background-color: #6BD1D1;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+   background-color:#e7e7e7;
+}
+
+/*font style for contact form*/
+.name {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
+
+.email {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
+
+.comments {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
+
+.submit {
+  font-family: "Comic Sans MS";
+  color: SlateGray ;
+}
