@@ -172,7 +172,7 @@ function increaseNumberCorrect (){
 
         var r = confirm("Congratulation! You finished the game!");
         if (r == true){
-          window.open("Homepage.html");
+          window.open("index.html");
     }
 
   }
